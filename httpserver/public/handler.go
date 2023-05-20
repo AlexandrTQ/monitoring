@@ -12,8 +12,8 @@ import (
 const (
 	PublicRouterPathPrefix    = "/api/v1"
 	ByDomainEndpoint          = "/server/status"
-	ByMaxResponseTimeEndpoint = "/server/status/timeout/max"
-	ByMinResponseTimeEndpoint = "/server/status/timeout/min"
+	ByMaxResponseTimeEndpoint = "/server/status/latency/max"
+	ByMinResponseTimeEndpoint = "/server/status/latency/min"
 )
 
 var r *chi.Mux
