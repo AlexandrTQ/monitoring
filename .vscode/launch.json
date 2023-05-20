@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "./",
+            "args": ["monitoring","--addr=localhost:8080", "--path=./resourses/server_list.txt"],
+        }
+    ]
+}
